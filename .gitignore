@@ -2,6 +2,13 @@
 
 # compilation and distribution
 __pycache__
+*/__pycache__
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+core*
+*/core*
+
 _ext
 *.pyc
 *.pyd
@@ -23,7 +30,6 @@ model_ts*.txt
 *.onnx
 
 # ipython/jupyter notebooks
-**/.ipynb_checkpoints/
 
 # Editor temporaries
 *.swn
